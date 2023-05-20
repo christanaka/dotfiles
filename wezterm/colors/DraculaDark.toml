@@ -1,0 +1,82 @@
+[colors]
+ansi = [
+    '#7970a9',
+    '#ff9580',
+    '#8aff80',
+    '#ffff80',
+    '#9580ff',
+    '#ff80bf',
+    '#80ffea',
+    '#f8f8f2',
+]
+background = '#22212c'
+brights = [
+    '#7970a9',
+    '#ffaa99',
+    '#a2ff99',
+    '#ffff99',
+    '#aa99ff',
+    '#ff99cc',
+    '#99ffee',
+    '#ffffff',
+]
+compose_cursor = '#ffb86c'
+cursor_bg = '#00c2ff'
+cursor_border = '#00c2ff'
+cursor_fg = '#22212c'
+foreground = '#f8f8f2'
+scrollbar_thumb = '#44475a'
+selection_bg = '#454158'
+selection_fg = '#ffffff'
+split = '#7970a9'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#22212c'
+
+[colors.tab_bar.active_tab]
+bg_color = '#9580ff'
+fg_color = '#22212c'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#22212c'
+fg_color = '#f8f8f2'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#6272a4'
+fg_color = '#f8f8f2'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#22212c'
+fg_color = '#f8f8f2'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#ff80bf'
+fg_color = '#f8f8f2'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = 'christanaka'
+name = 'Dracula Dark'
+origin_url = ''
