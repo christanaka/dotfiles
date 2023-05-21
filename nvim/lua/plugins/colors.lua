@@ -1,6 +1,6 @@
 return {
   {
-    dir = "~/.config/nvim-christanaka/colors/dracula_pro",
+    dir = '~/.config/nvim-christanaka/colors/dracula_pro',
     lazy = false,
     priority = 1000,
     config = function ()
