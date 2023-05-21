@@ -19,7 +19,13 @@ config.initial_rows = 58
 config.initial_cols = 150
 config.window_decorations = 'RESIZE | TITLE'
 config.window_background_opacity = 1.0
-config.front_end = 'WebGpu'
+config.window_padding = {
+  top = 0,
+  bottom = 0,
+  left = 0,
+  right = 0
+}
+--config.front_end = 'WebGpu'
 
 config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
