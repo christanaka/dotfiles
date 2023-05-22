@@ -1,15 +1,16 @@
 return {
   {
-    dir = '~/.config/nvim-christanaka/colors/dracula_pro',
+    --dir = '~/.config/nvim-christanaka/colors/dracula_pro',
+    'dracula/vim',
     lazy = false,
     priority = 1000,
     config = function ()
       vim.cmd([[set termguicolors]])
       vim.cmd([[syntax enable]])
-      --vim.cmd([[highlight Normal ctermbg=NONE]])
-      --vim.cmd([[highlight nonText ctermbg=NONE]])
+      vim.cmd([[highlight Normal ctermbg=NONE]])
+      vim.cmd([[highlight nonText ctermbg=NONE]])
       vim.cmd([[let g:dracula_colorterm = 0]])
-      vim.cmd([[colorscheme dracula_pro]])
+      vim.cmd([[colorscheme dracula]])
     end,
   }
 }
