@@ -11,6 +11,16 @@
   "theme": "Colorizer Pro",
   "icon_theme": "Symbols Icon Theme",
   "cursor_shape": "block",
+  "theme_overrides": {
+    "Colorizer Pro": {
+      "vim.normal.background": "#ae81ff",
+      "vim.insert.background": "#f39c12",
+      "vim.visual.background": "#618399",
+      "vim.visual_block.background": "#618399",
+      "vim.visual_line.background": "#618399",
+      "vim.replace.background": "#10a793"
+    }
+  },
 
   // Editor
   "tab_size": 2,
